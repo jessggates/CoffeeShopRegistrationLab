@@ -1,0 +1,14 @@
+﻿
+@model User
+
+<h2>Welcome @Model.FirstName</h2>
+<p>You are now a member of the coffee shop.</p>
+<p>Look for emails from us for coupons, and buy some coffees to bank points!</p>
+
+<p>
+    @Html.ActionLink("Return Home", "Index", "User")
+</p>
+<p>
+    @Html.ActionLink("Register Another Member", "Create", "User")
+</p>
+
