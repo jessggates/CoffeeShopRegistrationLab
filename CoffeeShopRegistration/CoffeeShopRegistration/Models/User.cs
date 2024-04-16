@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace CoffeeShopRegistration.Models
 {
@@ -24,6 +25,18 @@ namespace CoffeeShopRegistration.Models
         [StringLength(50)]
         [MinLength(8,ErrorMessage ="Password must be at least 8 characters.")]
         public string Password { get; set; }
+
+        [Required(ErrorMessage = "Please confirm your password")]
+        [Display(Name = "Confirm Password")]
+        [Compare("Password", ErrorMessage = "Passwords do not match. Please verify your password and confirm." )]
+        public string ConfirmPassword { get; set; }
+
+        [Display(Name = "What is your preferred location? ")]
+        public string? LocationName { get; set; }
+
+        public bool MarketingOptIn {  get; set; }
+
+        public int? CategoryId { get; set; } 
 
     }
 }

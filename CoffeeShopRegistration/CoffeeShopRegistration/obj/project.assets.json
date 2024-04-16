@@ -342,11 +342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jessg\\source\\repos\\coffee_shop_registration_lab\\CoffeeShopRegistration\\CoffeeShopRegistration\\CoffeeShopRegistration.csproj",
+      "projectUniqueName": "C:\\Users\\jessg\\source\\repos\\coffee_shop_registration_lab\\CoffeeShopRegistrationLab\\CoffeeShopRegistration\\CoffeeShopRegistration\\CoffeeShopRegistration.csproj",
       "projectName": "CoffeeShopRegistration",
-      "projectPath": "C:\\Users\\jessg\\source\\repos\\coffee_shop_registration_lab\\CoffeeShopRegistration\\CoffeeShopRegistration\\CoffeeShopRegistration.csproj",
+      "projectPath": "C:\\Users\\jessg\\source\\repos\\coffee_shop_registration_lab\\CoffeeShopRegistrationLab\\CoffeeShopRegistration\\CoffeeShopRegistration\\CoffeeShopRegistration.csproj",
       "packagesPath": "C:\\Users\\jessg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jessg\\source\\repos\\coffee_shop_registration_lab\\CoffeeShopRegistration\\CoffeeShopRegistration\\obj\\",
+      "outputPath": "C:\\Users\\jessg\\source\\repos\\coffee_shop_registration_lab\\CoffeeShopRegistrationLab\\CoffeeShopRegistration\\CoffeeShopRegistration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jessg\\AppData\\Roaming\\NuGet\\NuGet.Config",

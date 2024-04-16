@@ -1,5 +1,4 @@
-﻿
-@model User;
+﻿@model User;
 
 <h2>Register as a user at Jess's Coffee Shop!</h2>
 <form asp-action="Create" method="post">
@@ -24,9 +23,36 @@
         <input asp-for="Password" class="form-control" />
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
+    <div class="form-group">
+        <label asp-for="ConfirmPassword" class="control-label"></label>
+        <input asp-for="ConfirmPassword" class="form-control" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LocationName"></label>
+        <input asp-for="LocationName" type="radio" value="Detroit" />Detroit
+        <input asp-for="LocationName" type="radio" value="Seattle" />Seattle
+        <input asp-for="LocationName" type="radio" value="Portland" />Portland
+        <input asp-for="LocationName" type="radio" value="Toronto" />Toronto
+    </div>
+    <div class="form-group">
+        <label asp-for="MarketingOptIn">Opt In for Marketing Communications</label>
+        <input asp-for="MarketingOptIn" type="checkbox" />
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId">How did you hear about us? </label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control">
+            <option value="">Select a Category</option>
+        </select>
+    </div>
+    <br />
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<p>@ViewBag.ResultMessage</p>
 
+
+<div class="action-link"
 <p>
     @Html.ActionLink("Return Home", "Index", "User")
 </p>
+</div>

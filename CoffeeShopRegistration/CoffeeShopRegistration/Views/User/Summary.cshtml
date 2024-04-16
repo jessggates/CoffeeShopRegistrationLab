@@ -1,14 +1,28 @@
-﻿
-@model User
+﻿@model User
 
 <h2>Welcome @Model.FirstName</h2>
 <p>You are now a member of the coffee shop.</p>
-<p>Look for emails from us for coupons, and buy some coffees to bank points!</p>
+@if (Model.MarketingOptIn == true)
+{
+    <p>Look for emails from us for coupons and updates on expansion, and buy some coffees to bank membership points!</p>
+}
 
+@if (!string.IsNullOrEmpty(Model.LocationName))
+{
+<p><b>Preferred Location: </b>@Model.LocationName</p>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.CategoryText))
+{
+    <p><b>How You Found Us: </b>@ViewBag.CategoryText</p>
+}
+
+<div class="action-link">
 <p>
     @Html.ActionLink("Return Home", "Index", "User")
 </p>
 <p>
     @Html.ActionLink("Register Another Member", "Create", "User")
 </p>
+</div>
 

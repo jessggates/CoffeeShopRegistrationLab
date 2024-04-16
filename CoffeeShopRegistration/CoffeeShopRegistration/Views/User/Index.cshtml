@@ -2,8 +2,20 @@
 @model IEnumerable<User>;
 
 <h2>Welcome to Jess's Coffee Shop!</h2>
-<h3>Create an account for emails and membership points!</h3>
 
+<h3>We are proud to service 4 cities. Hoping to expand soon to a location near you...</h3>
+
+<ul>
+    <li>Detroit, Michigan</li>
+    <li>Seattle, Washington</li>
+    <li>Portland, Maine</li>
+    <li>Toronto, Ontario</li>
+</ul>
+
+<h3>Create an account for emails and updates from us</h3>
+
+<div class ="action-link">
 <p>
-    @Html.ActionLink("Register here today!", "Create", "User")
+    @Html.ActionLink("Register here today", "Create", "User")
 </p>
+</div>

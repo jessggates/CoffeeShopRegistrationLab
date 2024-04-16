@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qGA+Q/U0en2lVo4Yjl4ND3RV4hjuG8Ov0WK5d4FadBcqDOP0QSc2F9HEpoT0WAHbpMff643vZiUKiiJtKWmb0A==",
+  "dgSpecHash": "1IiCKhDq6yex2oCVGa+RRkanG2Md2BqihWU/aoz8+VKPKexA6m7cIgWb3WKP05H47BWGSXJAobPFwZtzeYyiqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jessg\\source\\repos\\coffee_shop_registration_lab\\CoffeeShopRegistration\\CoffeeShopRegistration\\CoffeeShopRegistration.csproj",
+  "projectFilePath": "C:\\Users\\jessg\\source\\repos\\coffee_shop_registration_lab\\CoffeeShopRegistrationLab\\CoffeeShopRegistration\\CoffeeShopRegistration\\CoffeeShopRegistration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jessg\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512"
   ],
